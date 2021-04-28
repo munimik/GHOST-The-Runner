@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
         {
             targetPos = new Vector2(transform.position.x, transform.position.y + Increment);
         }
-        else if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             targetPos = new Vector2(transform.position.x, transform.position.y - Increment);
         }
